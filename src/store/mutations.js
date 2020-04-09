@@ -1,0 +1,24 @@
+export default{
+	//type：事件类型,可以理解为set方法用于赋值或者改变state中的信息;
+	//payload:载荷。就是一个保存要传参数的容器
+	setResturantName:(state,payload)=>{
+		state.resturantName=payload.resturantName;
+	},
+	setJwt:(state,payload)=>{
+		state.jwt=payload.jwt;
+	},
+	//用户的set方法
+	setUser:(state,payload)=>{
+		state.user=payload.user;
+	},
+	//
+	setSalChance:(state,payload)=>{
+		state.salChance=payload.salChance;
+	},
+	setDict:(state,payload)=>{
+		state.dict=payload.dict;
+	},
+	setUserTime:(state,payload)=>{
+		state.userTime=payload.userTime;
+	}
+}
